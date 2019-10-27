@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE Course_Catalog SYSTEM "coursecatalog.dtd">
+<Course_Catalog>
+<Department Code="EE">
+<Title>Software Enjineering</Title>
+<Chair>
+<Professor>
+<First_Name> Hack </First_Name>
+<Last_Name> Panda </Last_Name>
+</Professor>
+</Chair>
+<Course Number="CS107">
+<Title> Programming with Python </Title>
+<Description>Introduction to programming with Python</Description>
+<Instructors>
+<Lecturer>
+<First_Name> A </First_Name>
+<Middle_Initial> B </Middle_Initial>
+<Last_Name> C </Last_Name>
+</Lecturer>
+<Professor>
+<First_Name> D </First_Name>
+<Last_Name> E </Last_Name>
+</Professor>
+<Professor>
+<First_Name> FMI </First_Name>
+<Last_Name> Panda </Last_Name>
+</Professor>
+</Instructors>
+</Course>
+<Prereq>CS107</Prereq>
+<Prereq>CS109</Prereq>
+</Prerequisites>
+</Course>
+</Department>
+</Course_Catalog>

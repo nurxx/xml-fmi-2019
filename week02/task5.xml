@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE channel[
+    <!ELEMENT channel (item+, title, link, language?, image*, description?)>
+    <!ATTLIST channel version CDATA "0.0">
+    <!ELEMENT item ((title, link, description?) | (description?, title, link) | (description?, link, title) | (title, description?, link) | (link, title, description?) |(link, description?, title) )>
+    <!ELEMENT title (#PCDATA)>   
+    <!ELEMENT link (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT language (#PCDATA)>
+    <!ELEMENT image (title | link | url)*>
+    <!ELEMENT url (#PCDATA)>
+]>
+<channel version="1.0">
+   <item>
+       <link>https://stackoverflow.com/questions/2346806/what-is-a-segmentation-fault</link>
+       <title>Segmentation Fault</title>
+   </item>
+   <item>
+       <description> What is Segmentation fault(core dumped)</description>
+       <title> Segmentation Fault 2 </title>
+       <link>https://stackoverflow.com/questions/19641597/what-is-segmentation-fault-core-dumped</link>
+   </item>
+   <title>Programming problems</title>
+   <link>https://stackoverflow.com</link>
+   <language>C++/C</language>
+   <image>
+       <url> https://stackoverflow.com/company/logos </url>
+       <title>logo</title>
+       <link> </link>
+   </image>
+   <description>Solve coding problems </description>
+</channel>
