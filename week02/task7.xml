@@ -9,11 +9,11 @@
     <!ELEMENT image (title | link | url)*>
     <!ATTLIST image src ENTITY #REQUIRED>
     <!ELEMENT url (#PCDATA)>
-    <!NOTATION gif SYSTEM "image/jpeg">
-    <!NOTATION jpeg PUBLIC "JPG">
+    <!NOTATION gif SYSTEM "image/gif">
+    <!NOTATION jpg PUBLIC "image/jpeg">
     <!ENTITY logo "LOGO">
     <!ENTITY % problems "fun">  
-    <!ENTITY photo PUBLIC "pubid" "https://fossbytes.com/wp-content/uploads/2019/08/stack_overflow_crokage.jpg">
+    <!ENTITY photo PUBLIC "pubid" "https://fossbytes.com/wp-content/uploads/2019/08/stack_overflow_crokage.jpg" NDATA jpg>
 ]>
 
     <channel version="1.0">
